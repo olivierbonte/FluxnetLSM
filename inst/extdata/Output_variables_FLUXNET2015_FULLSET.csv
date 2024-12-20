@@ -39,5 +39,5 @@ RECO_NT_VUT_REF,umol/m2/s,numeric,Resp,umol/m2/s,"Ecosystem respiration (variabl
 RECO_NT_VUT_SE,umol/m2/s,numeric,Resp_se,umol/m2/s,"Ecosystem respiration standard error (variable ustar, nighttime partitioning)",NULL,NULL,-200,200,NA,FALSE,Eval,NA,mean
 USTAR,m/s,numeric,Ustar,m/s,Friction velocity,NULL,NULL,0,13,NA,FALSE,Eval,NA,mean
 USTAR_QC,-,numeric,Ustar_qc,-,Ustar quality control flag,NULL,NULL,0,5,NA,FALSE,Eval,NA,NA
-LW_OUT,W/m2,numeric,LWup,W/m2,Outgoing longwave radiation,surface_upwelling_longwave_flux_in_air,rlus,-100,1360,NA,FALSE,Met,NA,mean
+LW_OUT,W/m2,numeric,LWup,W/m2,Outgoing longwave radiation,surface_upwelling_longwave_flux_in_air,rlus,-100,1360,2,FALSE,Met,NA,mean
 LW_OUT_QC,-,integer,LWup_qc,-,LWup quality control flag,NULL,NULL,0,5,NA,FALSE,Met,NA,NA
